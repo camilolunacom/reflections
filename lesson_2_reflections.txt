@@ -19,4 +19,8 @@ What are some situations when branches would be helpful in keeping your history 
     They are helpful when you want to make a change that is "not official", for example to experiment.
     Anothe use would be to have two different versions, that are related but somwhow different. For example having two UI options, languages, or as we saw in the example, an easier version of a game.
 
+How do the diagrams help you visualize the branch structure?
 
+    They allow me to see where the branch starts and the commit history each branch had.
+    With this diagram I can mentally map (or graph) the actual structure of the branches.
+    You can see it as a tree with branches, and this will give you clarity of the different tips that are available and the reason for each.
