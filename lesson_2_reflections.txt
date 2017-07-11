@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    The version control process is started and the .git folder is created.
+    This means that the changes can be tracked after making the first commit.
+    The .git folder contains all the metadata related to the repository, including the commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area can be seen as a transition area which contains the files that are modified in the working directory and that will be comitted to the repository.
+    It's value relies on the ability to choose what files to commit, because you don't always want to commit everything.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    You can add files to the stagging area and check the differences between them and the last commit in the repository. This way you can make sure you are commiting just the logical change intended.
+    All of this while other changes in other files await in your working directory.
+
+
