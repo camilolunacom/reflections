@@ -14,4 +14,9 @@ How can you use the staging area to make sure you have one commit per logical ch
     You can add files to the stagging area and check the differences between them and the last commit in the repository. This way you can make sure you are commiting just the logical change intended.
     All of this while other changes in other files await in your working directory.
 
+What are some situations when branches would be helpful in keeping your history organized? How would brances help?
+
+    They are helpful when you want to make a change that is "not official", for example to experiment.
+    Anothe use would be to have two different versions, that are related but somwhow different. For example having two UI options, languages, or as we saw in the example, an easier version of a game.
+
 
