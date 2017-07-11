@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Knowing that the older version didn't contain a bug but the second did, it was easy to compare the changes differences between the two and find the bug location, whithout having to manually compare the two long files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because it allows to change things without worring about breaking something and losing time trying to fix it. 
+    If you break something, you can easily find out the changes you made and troubleshoot any problem.
+    Without the entire history, you would need to remember all the changes you made after the last time the file was working or to compare two long files by eye to do this.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that you have more control and it allows you to describe the changes made.
+    Also, you don't end up with a lot of version with insignificant changes, or the opposite, with way-too-big changes from version to version.
+    One con is that you may forget to commit until you have changed too much and then you can't easily divide the changes in commits.
+    Also that if you've done a lot of work without commiting and something goes wrong, you could end up losing that work. If it automatically saved, maybe you could recover a part of the work, if not all.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because of the scope of the version control system.
+    Git (and others) are designed for coding, where files are related to each other (ie. html and css), so it makes sense to have them together.
+    Others like Google Docs have are for other purposes, in this case writing, which you normally do in one file and don't relate it to others.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log will display every commit made with its corresponding id.
+    You can use the latter to compare two different versions of the repository and see the changes you made at that moment.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    When you know that you can revert to a point in which everything works, you can change something with a much lower risk.
+    Also, knowing that you can easily compare two different files, can make it easy to spot bugs so you are confident that if you break something, you will be able to fix it (or at least find the bug) more easily.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will probably create a theme for Jekyll or Ghost.
+    I'm most inclined with Ghost since it will allow me to include images.
