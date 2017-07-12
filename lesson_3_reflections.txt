@@ -29,3 +29,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     Also, everyone would need to finish the work they are doing before closing the file and allowing others to share.
     Easier would be not having to use Git, which can get complicated in the beggining. As what said in the interview, it has a steep learning curve.
     I think the cheat sheet would be useful.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    You would want it when other might be doing the same, updating master.
+    Basically, everytime you are collaborating, so you make sure that the master is always the latest working, "approved" or "official" code.
+   The benefit of working in master, is that you are always updating the main code so you won't have to pull and marge changes and push. 
