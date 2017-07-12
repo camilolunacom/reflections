@@ -24,3 +24,9 @@ How do the diagrams help you visualize the branch structure?
     They allow me to see where the branch starts and the commit history each branch had.
     With this diagram I can mentally map (or graph) the actual structure of the branches.
     You can see it as a tree with branches, and this will give you clarity of the different tips that are available and the reason for each.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The result is to include in the checked out branch all the changes made in other branches that are merged.
+    After merging, you will continue on the branch that was checked out, but the merged changes will be kept in the same.
+    We represent them in the diagram the way we do because we are basically combining the changes on both merged branches into one, that will be continue using the checked out branch name.
