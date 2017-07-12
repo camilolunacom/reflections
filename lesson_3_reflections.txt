@@ -16,3 +16,8 @@ Describe the diffeences between forks, clones, and branches. When would you use 
     Forking is cloning someone else's repository into one of my own, while attriubuting them for the original creation.
     Cloning is duplicating everything, including files, commits, and everything else. It's a clone, a complete and perfect copy of the original.
     Branches are basically names for new commits in order to keep the original one in a separate named commit.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    So you can compare the last known state to the actual current state before pushing.
+    This way you make sure you are merging over the last latest state and not over an older one, overwriting it.
