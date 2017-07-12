@@ -21,3 +21,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
     So you can compare the last known state to the actual current state before pushing.
     This way you make sure you are merging over the last latest state and not over an older one, overwriting it.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Probably alerting everyone about the files that I will be modifying, so they won't modify them as well while I'm doing work.
+    Harder would be when collaborating with multiple people, since you would have to wait until someone finishes editing the file you want to use.
+    Also, everyone would need to finish the work they are doing before closing the file and allowing others to share.
+    Easier would be not having to use Git, which can get complicated in the beggining. As what said in the interview, it has a steep learning curve.
+    I think the cheat sheet would be useful.
